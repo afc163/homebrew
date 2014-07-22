@@ -1,6 +1,6 @@
 {
   "name": "homebrew",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The missing package manager for OS X",
   "main": "index.js",
   "repository": {
