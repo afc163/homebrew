@@ -1,6 +1,6 @@
 {
   "name": "homebrew",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "The missing package manager for OS X",
   "main": "index.js",
   "repository": {
@@ -8,7 +8,7 @@
     "url": "https://github.com/afc163/homebrew"
   },
   "scripts": {
-    "preinstall": "ruby install"
+    "postinstall": "ruby -e \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\""
   },
   "author": "afc163 <afc163@gmail.com>",
   "license": "ISC"
